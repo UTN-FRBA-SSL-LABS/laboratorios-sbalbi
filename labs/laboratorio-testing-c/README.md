@@ -169,7 +169,7 @@ make test_unitarios
 > R:
 
 ```
-TEST_PRECIO_UNITARIO_PASA=
+TEST_PRECIO_UNITARIO_PASA=SI
 ```
 _(SI o NO)_
 
@@ -198,7 +198,7 @@ Descomentá `/* test_total_con_cantidad(); */` en el `main()`, compilá y corré
 > R:
 
 ```
-TEST_TOTAL_CANTIDAD_PASA=
+TEST_TOTAL_CANTIDAD_PASA=NO
 ```
 _(SI o NO)_
 
