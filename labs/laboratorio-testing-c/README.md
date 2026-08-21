@@ -131,7 +131,7 @@ Mirá el código en `tests/test_unitarios.c` para entender la estructura de un t
 
 **P3** — ¿Qué hace `carrito_init` y por qué es importante llamarla antes de usar el carrito?
 
-> R:
+> R:La funcion inicializa el carrito en cero. Es importante porque de no usarla pueden quedar datos basura en esa direccion, lo que interferiria en el desarrollo.   
 
 ---
 
