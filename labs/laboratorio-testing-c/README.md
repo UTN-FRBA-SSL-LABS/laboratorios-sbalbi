@@ -355,7 +355,7 @@ _(SI si todas las líneas están cubiertas, NO si hay alguna con #####)_
 
 **P12** — El bug de capacidad en `carrito_agregar` causa un **buffer overflow**: se escribe más allá del array. ¿Por qué esto es peligroso en C pero no ocurriría en un lenguaje como Python o Java?
 
-> R:
+> R:Porque en c no hay verificacion de limites, lo que permite sobrescribir la memoria. Mientras que en esos lenguajes hay chequeos automaticos que no permiten acceder a memoria invalida. 
 
 **P13** — En este laboratorio encontraste los bugs escribiendo tests. ¿Qué tiene de mejor este enfoque frente a mirar el código directamente?
 
