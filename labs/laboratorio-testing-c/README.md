@@ -359,7 +359,7 @@ _(SI si todas las líneas están cubiertas, NO si hay alguna con #####)_
 
 **P13** — En este laboratorio encontraste los bugs escribiendo tests. ¿Qué tiene de mejor este enfoque frente a mirar el código directamente?
 
-> R:
+> R:El test ejecuta el codigo de manera automatica bajo condiciones controladas y verifica el resultado sin depender de la interpretacion humana lo cual lo hace mucho mas rapido y objetivo. 
 
 **P14** — El test `test_total_precio_unitario` (cantidad = 1) **pasó** a pesar del bug, mientras que `test_total_con_cantidad` (cantidad = 2) **falló**. ¿Por qué el primer test no detectó el bug?
 
