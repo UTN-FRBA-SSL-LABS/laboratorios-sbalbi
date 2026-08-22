@@ -260,12 +260,12 @@ Si el test falló, encontraste el segundo bug. Buscá en `src/carrito.c` la cond
 
 **P9** — ¿Cuál es el operador incorrecto y cuál debería ser?
 
-> R:
+> R:El operador incorrecto es <= y deberia ser <.
 
 Corregí el bug, volvé a compilar y verificá que todos los tests pasan.
 
 ```
-BUG_2_CORREGIDO=
+BUG_2_CORREGIDO=SI
 ```
 _(SI o NO)_
 
