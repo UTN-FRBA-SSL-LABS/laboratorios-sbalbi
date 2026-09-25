@@ -639,7 +639,7 @@ llamado `clean`?
 Opciones: `SI` / `NO`
 
 ```
-P2=???
+P2=NO
 ```
 
 ---
