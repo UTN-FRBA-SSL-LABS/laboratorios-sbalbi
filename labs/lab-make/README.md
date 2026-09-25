@@ -625,7 +625,7 @@ ejecución y la otra, ¿qué hace Make en la segunda ejecución?
 Opciones: `RECOMPILA` / `NO_RECOMPILA` / `DA_ERROR`
 
 ```
-P1=???
+P1=NO_RECOMPILA
 ```
 
 ---
