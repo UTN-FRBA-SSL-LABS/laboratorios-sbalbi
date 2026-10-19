@@ -467,7 +467,7 @@ Antes de implementar, discutí con tu equipo:
 
 **P6** — Conclusión de la discusión:
 
-> R:
+> R:La conclusión es que es más correcto y modular tener la función ToInteger en un módulo separado en lugar de incluirla dentro de la biblioteca String
 
 ---
 
