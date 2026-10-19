@@ -509,7 +509,7 @@ make test
 > R:Funciona porque en el lenguaje C los caracteres se representan internamente mediante sus valores numéricos según la tabla ASCII. Los caracteres de los dígitos del '0' al '9' se encuentran ubicados de forma consecutiva. Al restar el código ASCII de '0' al de cualquier otro carácter dígito, se elimina el desfase de la codificación y se obtiene el valor numérico entero real. Devuelve 3.
 
 ```
-TOINTEGER_PASA=
+TOINTEGER_PASA=SI
 ```
 _(escribí SI cuando todos los tests de ToInteger pasen)_
 
