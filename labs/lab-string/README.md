@@ -328,7 +328,7 @@ make test
 
 **P2** — ¿Qué hace `s + 1`? ¿Por qué avanza al siguiente carácter y no al siguiente byte?
 
-> R:
+> R:En C, cuando le sumás 1 a un puntero, el compilador lo avanza la cantidad de bytes que ocupa su tipo de dato. Como cada char ocupa exactamente 1 byte, avanzar 1 carácter es técnicamente lo mismo que avanzar 1 byte.
 
 **P3** — Si llamaras a `GetLength(NULL)`, ¿qué pasaría? ¿Por qué las precondiciones del contrato dicen `s != NULL`?
 
