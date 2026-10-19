@@ -494,7 +494,7 @@ int ToInteger(const char *s) {
 
 **P7** — El loop acumula correctamente el valor en `resultado`. ¿Qué está mal en el `return`?
 
-> R:
+> R:En lugar de devolver el valor acumulado (afectado por el signo), la función devuelve únicamente la variable signo (return signo;), lo que hace que cualquier número positivo devuelva 1 y cualquier número negativo devuelva -1 en lugar de transformar la cadena completa.
 
 #### Corrección
 
