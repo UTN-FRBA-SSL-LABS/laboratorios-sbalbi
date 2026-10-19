@@ -335,7 +335,7 @@ make test
 > R:si llamas a GerLength(Null) el programa intenta leer una direccion nula y rompe. 
 
 ```
-GETLENGTH_PASA=
+GETLENGTH_PASA=SI
 ```
 _(escribí SI cuando todos los tests de GetLength pasen)_
 
@@ -367,7 +367,7 @@ El `while` termina cuando alguna de las dos cadenas llega a `'\0'`. Después dev
 
 **P4** — ¿Qué dos casos están mal cubiertos por `return 1`? Describí un ejemplo para cada uno.
 
-> R:
+> R:el rpoblema es cunado las cadenas son de ditintas longitudes. Por ejemplo, cuando s1 es más corta que s2 (ej. "hola" y "hola mundo") y cuando s1 es más larga que s2 (ej. "hola mundo" y "hola"). En ambos casos, el código original devuelve 1 de forma errónea.
 
 #### Corrección
 
