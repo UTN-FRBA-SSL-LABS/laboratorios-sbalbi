@@ -332,7 +332,7 @@ make test
 
 **P3** — Si llamaras a `GetLength(NULL)`, ¿qué pasaría? ¿Por qué las precondiciones del contrato dicen `s != NULL`?
 
-> R:
+> R:si llamas a GerLength(Null) el programa intenta leer una direccion nula y rompe. 
 
 ```
 GETLENGTH_PASA=
