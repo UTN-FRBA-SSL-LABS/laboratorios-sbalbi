@@ -667,7 +667,7 @@ _(SI o NO)_
 
 **P11** — En la Parte III, todos los programas usan `char **arg` para iterar en vez de un índice entero. ¿Qué ventaja tiene este estilo? ¿Cuándo sería preferible usar el índice?
 
-> R:
+> R:Evita la necesidad de mantener y actualizar una variable entera auxiliar para el índice, haciendo el código más limpio y directo mediante aritmética de punteros. Es preferible usar el indice si necesitás acceder a los elementos en orden inverso/forma aleatoria o si requerís conocer en todo momento la posición numérica exacta (el índice i) dentro de la lógica del bucle.
 
 **P12** — En C, `"hola"` es un literal de tipo `const char *`. Si intentaras modificar un carácter con `s[0] = 'H'`, el comportamiento es indefinido. ¿Por qué? ¿En qué parte de la memoria viven los literales?
 
