@@ -661,7 +661,9 @@ _(SI o NO)_
 
 **P10** — `GetLength` es recursiva pero en C una llamada recursiva consume un stack frame. Si llamaras `GetLength` con un string de 1.000.000 de caracteres, ¿qué pasaría? ¿Cómo lo resolverías?
 
-> R:
+> R:Ocurriría un stack overflow, ya que cada llamada recursiva consume un stack frame y la memoria asignada para la pila del programa es limitada. Con un millón de llamadas anidadas se agotaría el espacio disponible y el programa fallaría de forma abrupta.
+
+¿Cómo lo resolverías? Se resolvería implementando la función de manera iterativa (utilizando un bucle tradicional con un contador o avanzando un puntero) en lugar de usar recursión.
 
 **P11** — En la Parte III, todos los programas usan `char **arg` para iterar en vez de un índice entero. ¿Qué ventaja tiene este estilo? ¿Cuándo sería preferible usar el índice?
 
