@@ -671,7 +671,7 @@ _(SI o NO)_
 
 **P12** — En C, `"hola"` es un literal de tipo `const char *`. Si intentaras modificar un carácter con `s[0] = 'H'`, el comportamiento es indefinido. ¿Por qué? ¿En qué parte de la memoria viven los literales?
 
-> R:
+> R:Porque los literales de cadena son de solo lectura. Intentar modificarlos viola las restricciones de protección de memoria impuestas por el sistema operativo. Viven en una sección de la memoria del programa reservada para datos de solo lectura.
 
 ---
 
