@@ -562,8 +562,7 @@ foo
 
 **P9** — ¿Por qué `(void)argc` suprime un warning? ¿Cuándo sería necesario usar `argc`?
 
-> R:
-
+> R:`(void)argc´ suprime un warning porque al usar void el compilador entiende que no usar argc fue intencional y no tira el warning de variable no utilizada. Sera necesario utilizarlo cuando tu programa necesite validar o tomar decisiones basadas en la cantidad de parámetros que le pasa el usuario. 
 ---
 
 ### Programa: `longitudes`
